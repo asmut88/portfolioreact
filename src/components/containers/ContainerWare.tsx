@@ -1,12 +1,12 @@
 import { IContainer } from "./interface"
-import styles from './ContainerWare.module.css'
+import styles from './stylesContainers/ContainerWare.module.css'
 
-export const ContainerWare = (props: IContainer) => {
+export const ContainerWare: React.FC<IContainer> = (props) => {
 
     const {text = ''} = props
 
     return (
-        <div className={styles.block}>
+        <div className={styles.boxWare}>
             {text}
         </div>
     )

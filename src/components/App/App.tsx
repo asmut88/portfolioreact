@@ -1,11 +1,11 @@
 import './App.css';
-import { ContainerWare } from '../Containers';
+import { Galery } from '../Galery/Galery';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ContainerWare text={'New container'} />
+        <Galery />
       </header>
     </div>
   );
