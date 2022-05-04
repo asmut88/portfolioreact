@@ -7,7 +7,7 @@ import styles from './stylesGalery/Galery.module.css'
 const res: string[] = ['First', 'Second', 'Third', 'Fourth', 'Fifth']
 
 const Galery: React.FC<IGalery> = (props) => {
-    const { countColumn = 3 } = props
+    const { countColumn = 3, countRow = 1 } = props
 
     //**Dynamic css propertion */
     const cssGridRepeat = 'repeat('+countColumn+', 1fr)'

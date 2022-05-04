@@ -6,6 +6,11 @@ html{
   box-sizing: inherit;  /**наследуем из html box-sizing**/
 }
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
